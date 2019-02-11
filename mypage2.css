@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    background: #fcfcfc;
+}
+
+
+/*
+h1{
+    font-size:10px;
+    padding-left:8px;
+    margin-bottom:6px;
+    color: #555;
+    font-weight: 400;
+}
+*/
+h2 {
+    color: #598987;
+    width: 300px;
+    font-family: Makinas-Scrap-5;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 350px;
+    text-align: center;
+    color: #598987;
+    text-decoration: none;
+    border: 2px solid #598987;
+    padding: 8px 0;
+
+}
+
+nagai {
+    color: #598987;
+    width: 800px;
+    font-family: Makinas-Scrap-5;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+    ;
+    text-align: center;
+    color: #598987;
+    text-decoration: none;
+    border: 2px solid #598987;
+    padding: 30px 0;
+
+
+}
+
+
+
+a.fbbutton {
+    margin-top: 40px;
+    font-size: 15px;
+    padding: 8px 32px;
+    background: #3b5998;
+    color: #f9f9f9;
+    border: 1px solid #3b5998;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5f;
+    font-family: Makinas-Scrap-5;
+    margin-left: 440px;
+
+}
+
+a.fbbutton:hover {
+    background: #f9f9f9;
+    color: #3b5998;
+}
+
+a.konan {
+    margin-top: 40px;
+    font-size: 15px;
+    padding: 8px 32px;
+    background: #CB2B00;
+    color: #f9f9f9;
+    border: 1px solid #CB2B00;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5f;
+    font-family: Makinas-Scrap-5;
+    margin-left: 440px;
+    ;
+
+
+}
+
+a.konan:hover {
+    background: #f9f9f9;
+    color: #CB2B00;
+}
+
+a.insta {
+    margin-top: 16px;
+    font-size: 15px;
+    padding: 8px 32px;
+    background: #D93177;
+    color: #f9f9f9;
+    border: 1px solid #D93177;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5f;
+    font-family: Makinas-Scrap-5;
+    margin-left: 440px;
+
+
+}
+
+a.insta:hover {
+    background: #f9f9f9;
+    color: #D93177;
+}
+
+img {
+    width: 60%;
+    background: #fff url(topp.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
+    opacity: 0.5;
+    margin-left: 200px;
+}
+
+mini {
+    width: 20%;
+    background: #fff url(topp.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
+    opacity: 0.5;
+    margin-left: 200px;
+}
+
+
+video {
+    float: center;
+    width: 60%;
+    margin-bottom: 32px;
+    opacity: 0.9;
+    margin-left: 200px;
+
+}
+
+p {
+    margin-bottom: 25px;
+    font-family: Makinas-Scrap-5;
+    color: #6d6d6d;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content {
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+    overflow: hidden;
+}
+
+.content:last-child {
+    border-bottom: 0;
+
+}
+
+.top-title {
+    font-size: 50px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #6d6d6d;
+    font-weight: 400;
+    text-align: center;
+    font-family: Makinas-Scrap-5;
+    animation-name: fadein;
+    animation-duration: 5s;
+
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.right-box {
+    float: center;
+    width: 1000px;
+
+
+}
+
+.left-box {
+    float: center;
+    width: 1000px;
+    margin-right: 18px;
+
+
+}
+
+.main-visual {
+    width: 100%;
+    height: 500px;
+    background: #fff url(tpp.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
+    opacity: 0.8;
+    padding-top: 60px;
+}
+
+#main {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+
+    float: center;
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font: center;
+}
+
+#header {
+    width: 100%;
+    height: 35px;
+    overflow: hidden;
+    background: #77a88d;
+    padding: 3px 0px;
+    position: fixed;
+}
+
+#header h1 {
+    float: left;
+    color: #f6f6f6;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 1px;
+    font-size: 25px;
+    font-family: Makinas-Scrap-5;
+}
+
+nav {}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    font-family: Makinas-Scrap-5;
+
+
+}
+
+nav a {
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #f6f6f6;
+    margin: 3px 20px 0px;
+    transform: 0.3s;
+}
+
+nav a:hover {
+    border-top: 5px solid #f6f6f6;
+
+}
+
+#sidebar {
+    float: left;
+    width: 280px;
+    margin: 0px 12px;
+    background: #fff;
+    padding: 8px;
+
+}
+
+#sidebar img {
+    margin-bottom: 16px;
+
+}
+
+#sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+
+#sidebar p {
+    font-size: 16px;
+}
+
+footer {
+    background: #77A88D;
+    color: aliceblue;
+}
